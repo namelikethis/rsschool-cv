@@ -6,7 +6,7 @@
 + __location:__ Sopot, Poland
 + __phone:__ +48 782 514 147
 + __e-mail:__ vasil.zhvirblia@gmail.com
-+ __github:__ [namelikethis] (https://github.com/namelikethis "namelikethis")
++ __github:__ [namelikethis](https://github.com/namelikethis "namelikethis")
 
 
 ## **About me**
