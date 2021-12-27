@@ -1,1 +1,1 @@
-# rsschool-cv
+https://namelikethis.github.io/rsschool-cv/
