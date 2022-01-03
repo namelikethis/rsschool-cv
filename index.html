@@ -11,12 +11,83 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
-<body>
-    <img src="./assets/img/avatar.png" alt="avatar">
-        <source>
-            <alt></alt>
-        </source>
-    </img>
-    <h1>hello world!</h1>
-</body>
+    <body class="body">
+        <header class="header">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code example" class="nav-link">Code example</a></li>
+                    <li class="nav-item"><a href="#work expirience" class="nav-link">Work expirience</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main main-container">
+            <div class="container">
+                <section class="section-profile" id="Profile">
+                    <img src="./assets/img/avatar.png" alt="avatar">
+                    <div class="profile-name">
+                        <h1 class="section-title">Vasil Zhvirblia</h1>
+                        <h3>Front-end student</h3>
+                    </div>
+                </section>
+                <section class="section" id="contacts">
+                    <h2 class="section-title">Contacts</h2>
+                    <ul>
+                        <li>location: Sopot, Poland</li>
+                        <li>phone: +48 782 514 147</li>
+                        <li>e-mail: vasil.zhvirblia@gmail.com</li>
+                        <li>github: namelikethis</li>
+                    </ul>
+                </section>
+                <section class="section" id="summary">
+                    <h2 class="section-title">Summary</h2>
+                    <p>I am a good team player, always willing to organize work process in the best possible way. I have a passion to find and implement new fitures.                    </p>
+                </section>
+                <section class="section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+                    <ul>
+                        <li><b>HTML</b>(basics)</li>
+                        <li><b>CSS</b>(basics)</li>
+                        <li><b>GIT</b>(basics)</li>
+                    </ul>
+                </section>
+                <section class="section" id="code example">
+                    <h2 class="section-title">Code example</h2>
+                    <p>function sum(a, b) {</p>
+                    <p>return a + b;</p>
+                    <p>}</p>
+                    <p>let result = sum(1, 2);</p>
+                    <p>( result ); // 3</p>
+                </section>
+                <section class="section" id="work expirience">
+                    <h2 class="section-title">Work expirience</h2>
+                    <p>none</p>
+                </section>
+                <section class="section" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <p>Belarusian State Economic University</p>
+                </section>
+                <section class="section" id="languages">
+                    <h2 class="section-title">Languages</h2>
+                    <ul>
+                        <li>English B1+</li>
+                        <li>Polish A1</li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer-1">
+                <div>© 2022</div>
+                <a href="https://github.com/namelikethis" class="git-link">namelikethis</a>
+            </div>
+            <div>
+                <a href="https://rs.school/js/" class="image-link"><img src="./assets/img/rss.svg" alt="rss"></a>
+            </div>        
+        </footer>
+    </body>
 </html>
